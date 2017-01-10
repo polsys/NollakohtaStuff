@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fraktaalimaisema (Nollakohta)</title>
+<style type="text/css">
+
+a {
+color: #cc6411;
+}
+
+body {
+font-family: Georgia, Utopia, "Palatino Linotype", Palatino, serif;
+}
+
+h1 {
+font-family: Verdana, Geneva, sans-sefif;
+}
+
+</style>
+</head>
+<body>
+
+<div style="width:70vw;margin-left:auto;margin-right:auto;">
+
+<!-- Piirretty maisema -->
+<canvas id="mainCanvas" width="1280" height="720" style="width:70vw;">
+<p>Selaimesi ei näytä tukevan <code>&lt;canvas&gt;</code>-elementtiä, joka vaaditaan tähän demoon.</p>
+</canvas>
+
+<!-- Kontrollit -->
+<div>
+Vuoret: <input type="range" max="1" min="0" value="0.8" step="0.01" onChange="inputChanged()" id="mountainRecFactor"><br>
+Pilvet: <input type="range" max="1" min="0" value="0.8" step="0.01" onChange="inputChanged()" id="cloudRecFactor"><br>
+<button onClick="drawNewScene()">Uusi maisema</button>
+</div>
+
+</div>
+
+<!-- Lataa skripti tässä kohtaa, jotta latausaika ei estäisi piirtämistä -->
+<script src="landscape.js" type="text/javascript"></script>
+
+</body>
+</html>
