@@ -9,3 +9,4 @@ Jotta koodi olisi luettavaa vähemmälläkin kokemuksella, pyrin pitämään sen
 ## Projektit
 
 - **FractalLandscape**. Pilvien ja vuorten generointia toistuvalla jakamisella. HTML5-sovellus. Kansiossa myös C#-ohjelma fraktaalikasvin generointiin.
+- **Gambler**. Yksiulotteinen satunnaiskävely kolikonheittopelin muodossa. HTML5-sovellus.

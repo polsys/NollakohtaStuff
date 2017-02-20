@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Uhkapelurin tuho (Nollakohta)</title>
+<style type="text/css">
+
+a {
+color: #cc6411;
+}
+
+body {
+font-family: Georgia, Utopia, "Palatino Linotype", Palatino, serif;
+}
+
+h1 {
+font-family: Verdana, Geneva, sans-sefif;
+}
+
+</style>
+</head>
+<body>
+
+<div style="width:70vw;margin-left:auto;margin-right:auto;">
+
+<!-- Käppyrä -->
+<canvas id="mainCanvas" width="1280" height="720" style="width:70vw;">
+<p>Selaimesi ei näytä tukevan <code>&lt;canvas&gt;</code>-elementtiä, joka vaaditaan tähän demoon.</p>
+</canvas>
+
+<!-- Kontrollit -->
+<div>
+Voiton todennäköisyys: <input type="range" max="60" min="40" value="50" step="1" onChange="inputChanged()" id="chanceSlider"><br>
+<button onClick="drawNewGraph()">Uusi peli</button>
+</div>
+
+</div>
+
+<!-- Lataa skripti tässä kohtaa, jotta latausaika ei estäisi piirtämistä -->
+<script src="gambler.js" type="text/javascript"></script>
+
+</body>
+</html>
