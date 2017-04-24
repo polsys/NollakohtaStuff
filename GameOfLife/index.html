@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Game of Life (Nollakohta)</title>
+<style type="text/css">
+
+a {
+color: #cc6411;
+}
+
+body {
+font-family: Georgia, Utopia, "Palatino Linotype", Palatino, serif;
+}
+
+h1 {
+font-family: Verdana, Geneva, sans-sefif;
+}
+
+</style>
+</head>
+<body>
+
+<div style="width:70vw;margin-left:auto;margin-right:auto;">
+
+<!-- Peli -->
+<noscript>
+Tämä demo vaatii skriptituen.
+</noscript>
+<canvas id="mainCanvas" width="1280" height="720" style="width:70vw;">
+<p>Selaimesi ei näytä tukevan <code>&lt;canvas&gt;</code>-elementtiä, joka vaaditaan tähän demoon.</p>
+</canvas>
+
+<!-- Kontrollit -->
+<div>
+<button onClick="toggleGame()">Käynnistä/pysäytä</button>
+<button onClick="singleStep()">Yksi askel</button>
+<button onClick="resetGame()">Satunnaista kenttä</button>
+</div>
+
+</div>
+
+<!-- Lataa skripti tässä kohtaa, jotta latausaika ei estäisi piirtämistä -->
+<script src="gol.js" type="text/javascript"></script>
+
+</body>
+</html>

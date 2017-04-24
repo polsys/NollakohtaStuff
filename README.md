@@ -10,4 +10,5 @@ Jotta koodi olisi luettavaa vähemmälläkin kokemuksella, pyrin pitämään sen
 
 - **FractalLandscape**. Pilvien ja vuorten generointia toistuvalla jakamisella. HTML5-sovellus. Kansiossa myös C#-ohjelma fraktaalikasvin generointiin.
 - **Gambler**. Yksiulotteinen satunnaiskävely kolikonheittopelin muodossa. HTML5-sovellus.
+- **GameOfLife**. Conwayn Game of Life. HTML5-sovellus.
 - **Satunnaiskysely**. Nollakohdan suuren satunnaiskyselyn tulokset.
